@@ -1,14 +1,4 @@
 Rails.application.routes.draw do
-  root :to => 'demo#index'
-  match 'demo/index' => 'demo#index', via: :get
-  match 'demo/true' => 'demo#true', via: :get
-  match 'demo/false' => 'demo#false', via: :get
-  match 'demo/first' => 'demo#first', via: :get
-  match 'demo/second' => 'demo#second', via: :get
-  match 'demo/other' => 'demo#other_hello', via: :get
-  match 'demo/new' => 'demo#new', via: :post
- 
-
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -63,5 +53,4 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  #match ':controllers(/:action(/:id(.:format)))'
 end
