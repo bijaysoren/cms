@@ -1,0 +1,6 @@
+      invoke  active_record
+      create    db/migrate/20160123051940_create_subjects.rb
+      create    app/models/subject.rb
+      invoke    test_unit
+      create      test/models/subject_test.rb
+      create      test/fixtures/subjects.yml
